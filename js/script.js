@@ -6,7 +6,7 @@ if (userResponse) {
   alert("You chose to open the site.");
 } else {
 
-  window.location.href = "https://aya-elsayed367.github.io/task/"; // هنا ضع الرابط الذي تريد أن يتم توجيه المستخدم إليه
+  window.location.href = "https://aya-elsayed367.github.io/task/"; 
 }
 
 
