@@ -1,4 +1,3 @@
-alert("Are you sure you want to proceed to this site?")
 
 
 function toggleMenu() {
@@ -30,15 +29,3 @@ document.addEventListener("keydown", function (e) {
     e.preventDefault();
   }
 }); // (Ctrl+Shift+I / F12)   XXXXXXXXXXXXXXXXXXXXXxxx
-
-(function () {
-  const devtools = new Image();
-  Object.defineProperty(devtools, "id", {
-    get: function () {
-      alert("Warning: This could potentially harm your device!");
-    },
-  });
-  setInterval(function () {
-    console.log(devtools);
-  }, 1000);
-})();
