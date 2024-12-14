@@ -1,29 +1,26 @@
-
-let userResponse = confirm("Are you sure you want to open this site?");
-
-if (userResponse) {
-
-  alert("You chose to open the site.");
-} else {
-
-  window.location.href = "https://aya-elsayed367.github.io/task/"; 
-}
+alert("Are you sure you want to proceed to this site?")
 
 
 function toggleMenu() {
   const navMenu = document.querySelector("nav ul");
   navMenu.classList.toggle("open");
 }
+
+
 const searchIcon = document.getElementById("search");
 const searchBar = document.querySelector(".search-bar");
 
 searchIcon.addEventListener("click", () => {
   searchBar.classList.toggle("active");
 });
+
+
 // .................... privacy .............................
+
 document.addEventListener("contextmenu", function (e) {
   e.preventDefault();
 }); // rigth click XXXXXXX
+
 document.addEventListener("keydown", function (e) {
   if (
     e.key === "F12" ||
@@ -33,6 +30,7 @@ document.addEventListener("keydown", function (e) {
     e.preventDefault();
   }
 }); // (Ctrl+Shift+I / F12)   XXXXXXXXXXXXXXXXXXXXXxxx
+
 (function () {
   const devtools = new Image();
   Object.defineProperty(devtools, "id", {
