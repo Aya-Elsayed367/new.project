@@ -841,7 +841,7 @@ h4 {
     display: block;
     width: 100%;
   }
-  .hamburger {
+  .hamburger {margin-left: 10px;
     display: block;
     transform: translateX(150px);
     font-size: 30px;
@@ -889,7 +889,7 @@ h4 {
     margin-left: 50px;
     margin-top: -10px;
   }
-  .fa-cart-plus {
+  .fa-cart-plus {margin-right: 70;
     padding: 10px;
     margin-top: -10px;
   }
@@ -943,7 +943,7 @@ h4 {
   }
   .products-items {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr); /* 4 أعمدة */
     grid-gap: 20px;
   }
   .product-item {
