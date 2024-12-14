@@ -1,3 +1,15 @@
+
+let userResponse = confirm("Are you sure you want to open this site?");
+
+if (userResponse) {
+
+  alert("You chose to open the site.");
+} else {
+
+  window.location.href = "https://aya-elsayed367.github.io/task/"; // هنا ضع الرابط الذي تريد أن يتم توجيه المستخدم إليه
+}
+
+
 function toggleMenu() {
   const navMenu = document.querySelector("nav ul");
   navMenu.classList.toggle("open");
